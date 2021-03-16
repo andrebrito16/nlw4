@@ -1,6 +1,9 @@
-import express, { request, response } from "express"
+import "reflect-metadata"
+import express from "express";
+import "./database"
 
 const app = express();
+
 
 // 1 param => ROTA
 // 2 param => (request, response)
